@@ -48,7 +48,7 @@ Provisioning a VM in Azure involves more moving parts than just the VM itself. T
 
 - For best disk I/O performance, we recommend [Premium Storage][premium-storage], which stores data on solid state drives (SSDs). Cost is based on the size of the provisioned disk. IOPS and throughput also depend on disk size, so when you provision a disk, consider all three factors (capacity, IOPS, and throughput). 
 
-- One storage account can support 1 to 20 VMs.
+- One storage account can support 1 to 40 VMs.
 
 - Add one or more data disks. When you create a new VHD, it is unformatted. Log into the VM to format the disk.
 
